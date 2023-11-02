@@ -1,3 +1,9 @@
+:root {
+    --colorRojo:#ef4c27;
+    --colorGris:#b6b6b6;
+    --colorBlanco:#ffffff;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -18,4 +24,11 @@ body {
     max-width: 1140px;
     margin: 0 auto;
     background-image: url('/img/bg-2.png');  
+}
+
+.box__end {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 100%;
 }
