@@ -40,10 +40,9 @@
 }
 
 .home__main__aside__section--tutoriales {
+    margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    margin-bottom: 20px;
     row-gap: 17.5px;
 }
 
@@ -55,10 +54,6 @@
     align-items: center;
     gap: 10px;
     width: 100%;
-}
-
-.home__main__aside__section__article:last-child {
-    border-bottom: 1px solid silver;
 }
 
 .home__main__aside__section--publicidad {

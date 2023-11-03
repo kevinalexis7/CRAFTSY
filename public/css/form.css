@@ -8,6 +8,18 @@
     width: 100%;
 }
 
+.form__box--position {
+    position: relative;
+}
+
+.form__box--position span {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    cursor: pointer;
+    color: var(--colorGris);
+}
+
 .form__label {
     margin-bottom: 20px;
 }
@@ -17,5 +29,6 @@
     padding: 8px;
     border-radius: 5px;
     border: 1px #c0c0c0 solid;
-    margin-top: 20px
+    margin-top: 10px
 }
+
